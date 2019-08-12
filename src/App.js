@@ -15,6 +15,7 @@ function App() {
 
   return (
     <div className="container">
+      <div class="cloutOmeter" >CloutOmeter</div>
       <section className="scoreboard">
         <div className="topRow">
           <div className="home">
@@ -42,7 +43,7 @@ function App() {
           <button onClick={() => setHomeScore(homeScore - 5)}className="homeButtons__fieldGoal">Disrespect Drake</button>
 
           {/* Added Click reset button to equal 0 */}
-          <button onClick={() => setHomeScore(homeScore === 0)} className="resetButton-Home">Reset</button>
+          <button onClick={() => setHomeScore(homeScore === 0)} className="resetButton-Home">Fake News</button>
           </div>
 
           {/* AWAY Set OnClick for Home touchdown and field goal*/}
@@ -51,7 +52,7 @@ function App() {
           <button onClick={() => setAwayScore(awayScore - 5)}className="awayButtons__fieldGoal">Disrespect Biebs</button>
 
           {/* Added Click reset button to equal 0 */}
-          <button onClick={() => setAwayScore(awayScore === 0)}className="resetButton-Home">Reset</button>
+          <button onClick={() => setAwayScore(awayScore === 0)}className="resetButton-Home">Fake News</button>
         </div>
       </section>
     </div>
